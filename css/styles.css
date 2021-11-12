@@ -1,0 +1,214 @@
+/*geral*/
+body, p, h1, h2, input, textarea {
+	margin: 0;
+	font-family: Roboto;
+}
+
+h1 {
+	font-family: Yuji Boku;
+}
+
+h2 {
+	font-family: Yuji Boku;
+	font-size: 30px;
+}
+
+/*navbar*/
+
+#navbar {
+	background-color: rgb(2, 2, 92);
+	color:whitesmoke;
+	padding: 0 15px;
+	height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar_list li, #navbar nav{
+	display: inline-block;
+}
+
+#navbar h2 {
+	margin:0;
+	line-height: 40px;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+#navbar img{
+	height:60px;
+	position: absolute;
+}
+#navbar nav {
+	float: right;
+}
+#navbar ul {
+	margin-top: 22px;
+}
+#navbar li {
+	margin: 0 10px;
+}
+
+#navbar_list li a{
+	text-decoration: none;
+	color: whitesmoke
+}
+
+#navbar_list li a:hover {
+  border-bottom: 1px solid #FFF;
+}
+
+/*banner*/
+#banner{
+	height: 70vh;
+	background-image: url('../img/Ghibli gif dump.gif');
+  background-size: cover;
+  padding-top: 15vh;
+}
+
+#banner_info {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: rgb(2, 2, 92);
+  padding: 50px;
+}
+
+#banner_info img {
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(2, 2, 92);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#banner_info p {
+  background-color:whitesmoke;
+	border-radius: 30%;
+  font-weight: bold;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+}
+
+/* about */
+
+#about {
+  text-align: center;
+  background-color: rgb(2, 2, 92);
+  color: #FFF;
+  padding-top: 20px;
+  height: 250px;
+}
+
+#about p {
+	font-family: Yuji Boku;
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 30px;
+}
+
+/* skills */
+
+#skills {
+  margin-top: -150px;
+  background-color: #FFF;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+}
+
+#skills .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skills_container {
+  flex: 1 1 1;
+  text-align: center;
+  padding: 40px 25px;
+}
+
+.central {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
+.skills_container h3 {
+	font-family: Yuji Boku;
+  color: rgb(2, 2, 92);
+  font-size: 20px;
+}
+
+.skills_container img {
+  height: 60px;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-top: 1px solid rgb(2, 2, 92);
+  border-left: 1px solid rgb(2, 2, 92);
+  border-bottom: 4px solid rgb(2, 2, 92);
+  border-right: 4px solid rgb(2, 2, 92);
+}
+
+.skills_container .subtitle {
+	font-family: Yuji Boku;
+  font-weight: bold;
+  color: rgb(2, 2, 92);
+  margin-top: 50px;
+  margin-bottom: 15px;;
+}
+
+.skills_container p {
+  line-height: 25px
+}
+
+/* jobs */
+
+#jobs_id {
+  text-align: center;
+  padding-top: 50px;
+}
+#jobs_id p {
+  margin-bottom: 50px;
+}
+
+/* footer */
+
+footer {
+  padding: 50px 0;
+  background-color: rgb(2, 2, 92);
+  color: whitesmoke;
+  text-align: center;
+}
+
+footer img {
+  height: 200px;
+  margin: 30px 0;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+footer form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer input, footer textarea {
+  border: none;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+}
+
+footer .detail {
+  font-weight: bold;
+}
